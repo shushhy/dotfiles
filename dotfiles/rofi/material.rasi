@@ -1,0 +1,94 @@
+*{
+  base00: #F5F5F5;
+  base01: #d42d58;
+  base02: #cc3046;
+  base03: #df4275;
+  contrast01: #081e29;
+  contrast02: #051e23;
+  base04: #A8A8A8;
+
+	spacing: 0;
+	background-color: transparent;
+
+	font: "System San Francisco Display 16";
+}
+
+window {
+  width: 30%;
+  height: 26%;
+	background-color: #081e29CC;
+  //padding: 1px;
+}
+
+mainbox {
+	children: [inputbar, listview];
+  spacing: 10px;
+	padding: 1% 0px;
+}
+
+inputbar {
+	padding: 0px 1%;
+	children: [prompt, textbox-prompt-colon, entry, case-indicator];
+}
+
+prompt {
+	text-color: @base00;
+}
+
+textbox-prompt-colon {
+	expand: false;
+	str: ": ";
+	margin: 0px 0px 0px 0px;
+	text-color: @base00;
+}
+
+entry {
+	text-color: @base01;
+}
+
+case-indicator {
+	text-color: @base02;
+}
+
+button, textbox {
+	background-color: @base03;
+	text-color: @base00;
+	padding: 5px;
+}
+
+button selected {
+	background-color: @base00;
+}
+
+listview {
+  lines: 1;
+	margin: 0px 1% 0px 1%;
+}
+
+element {
+	padding: 5px;
+}
+
+element normal {
+	background-color: transparent;
+}
+
+element selected {
+	background-color: @base01;
+}
+
+element alternate {
+	/*background-color: @base03;*/
+}
+
+element normal normal, element selected normal, element alternate normal {
+	text-color: @base00;
+}
+
+element normal urgent, element selected urgent, element alternate urgent {
+	text-color: @base01;
+}
+
+element normal active, element selected active, element alternate active {
+	text-color: @base02;
+}
