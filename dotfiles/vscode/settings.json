@@ -1,0 +1,53 @@
+{
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "python.formatting.autopep8Args": [
+        "--max-line-length 200"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": false
+    },
+    "workbench.colorTheme": "Horizon",
+    "C_Cpp.updateChannel": "Insiders",
+    "window.menuBarVisibility": "toggle",
+    "breadcrumbs.enabled": false,
+    "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "workbench.statusBar.visible": true,
+    "workbench.activityBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.iconTheme": "material-icon-theme",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+    "terminal.integrated.shellArgs.windows": [
+        "-NoLogo"
+    ],
+    "terminal.integrated.cursorWidth": 0,
+    "editor.cursorBlinking": "phase",
+    "editor.cursorSurroundingLines": 1,
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.experimentalRefreshOnResume": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": false,
+    "editor.defaultFormatter": "giyyapan.pyformat",
+    "pyformat.autopep8Args": [
+        "--max-line-length 200"
+    ],
+    "workbench.sideBar.location": "left",
+    "python.sortImports.path": "isort",
+    "window.zoomLevel": 0,
+    "editor.hover.delay": 150,
+    "editor.renderLineHighlight": "all",
+    "editor.fontFamily": "IBM Plex Mono, 'Courier New', monospace",
+    "kite.showWelcomeNotificationOnStartup": false,
+    "kite.showGoBetaNotification": false,
+    "extensions.ignoreRecommendations": true,
+    "editor.autoClosingBrackets": "always",
+    "git.ignoreMissingGitWarning": true,
+    "pyformat.enableImportOrganization": false,
+    "files.autoSave": "afterDelay",
+    "editor.formatOnSave": true
+}
