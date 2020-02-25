@@ -48,6 +48,7 @@
     "editor.autoClosingBrackets": "always",
     "git.ignoreMissingGitWarning": true,
     "pyformat.enableImportOrganization": false,
-    "files.autoSave": "afterDelay",
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "glassit.alpha": 240
+    "editor.maxTokenizationLineLength": 200000
 }
