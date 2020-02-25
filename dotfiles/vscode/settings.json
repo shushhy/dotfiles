@@ -49,6 +49,6 @@
     "git.ignoreMissingGitWarning": true,
     "pyformat.enableImportOrganization": false,
     "editor.formatOnSave": true,
-    "glassit.alpha": 240
+    "glassit.alpha": 240,
     "editor.maxTokenizationLineLength": 200000
 }
