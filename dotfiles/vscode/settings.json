@@ -1,24 +1,10 @@
 {
     "telemetry.enableCrashReporter": false,
     "telemetry.enableTelemetry": false,
-    "editor.minimap.enabled": false,
-    "editor.formatOnPaste": true,
-    "python.formatting.autopep8Args": [
-        "--max-line-length 200"
-    ],
-    "editor.codeActionsOnSave": {
-        "source.organizeImports": false
-    },
-    "workbench.colorTheme": "Horizon",
-    "C_Cpp.updateChannel": "Insiders",
-    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": true,
+    "window.menuBarVisibility": "classic",
     "breadcrumbs.enabled": false,
-    "python.autoComplete.addBrackets": true,
-    "python.linting.flake8Args": [
-        "--ignore=E501"
-    ],
     "workbench.statusBar.visible": true,
-    "workbench.activityBar.visible": true,
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
     "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -29,26 +15,149 @@
     "editor.cursorBlinking": "phase",
     "editor.cursorSurroundingLines": 1,
     "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.experimentalRefreshOnResume": true,
     "python.linting.flake8Enabled": true,
     "python.linting.pylintEnabled": false,
-    "editor.defaultFormatter": "giyyapan.pyformat",
     "pyformat.autopep8Args": [
-        "--max-line-length 200"
+      "--max-line-length 200"
     ],
-    "workbench.sideBar.location": "left",
     "python.sortImports.path": "isort",
-    "window.zoomLevel": 0,
     "editor.hover.delay": 150,
-    "editor.renderLineHighlight": "all",
-    "editor.fontFamily": "IBM Plex Mono, 'Courier New', monospace",
-    "kite.showWelcomeNotificationOnStartup": false,
-    "kite.showGoBetaNotification": false,
+    "editor.fontFamily": "fira code",
+    "editor.fontWeight": "300",
+    "editor.fontSize": 14.5,
+    "editor.lineHeight": 19,
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontWeight": "400",
+    "color-highlight.markerType": "underline",
+    "editor.minimap.showSlider": "always",
     "extensions.ignoreRecommendations": true,
-    "editor.autoClosingBrackets": "always",
     "git.ignoreMissingGitWarning": true,
     "pyformat.enableImportOrganization": false,
-    "editor.formatOnSave": true,
-    "glassit.alpha": 240,
-    "editor.maxTokenizationLineLength": 200000
+    "editor.maxTokenizationLineLength": 2000,
+    "pyformat.formatProvider": "autopep8",
+    "python.formatting.autopep8Args": [
+        "--max-line-length 120"
+    ],
+    "python.autoComplete.addBrackets": true,
+    "python.linting.flake8Args": [
+        "--ignore=E501"
+    ],
+    "editor.snippetSuggestions": "top",
+    "editor.renderWhitespace": "none",
+    "C_Cpp.default.cppStandard": "c++17",
+    "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
+    "C_Cpp.updateChannel": "Default",
+    "[cpp]": {
+        "editor.wordBasedSuggestions": false,
+        "editor.defaultFormatter": "ms-vscode.cpptools",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.autoClosingOvertype": "always"
+    },
+
+    "[python]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": false
+        },
+        "editor.autoClosingBrackets": "always",
+        "editor.defaultFormatter": "giyyapan.pyformat",
+    },
+    "[plaintext]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": false,
+        "editor.autoClosingBrackets": "never",
+        "editor.defaultFormatter": "vscode.search-result"
+    },
+    "[javascript]": {
+      "editor.formatOnPaste": false,
+      "editor.formatOnSave": true,
+    },
+    "vim.easymotion": true,
+    "vim.incsearch": true,
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.hlsearch": true,
+    // "vim.insertModeKeyBindings": [
+    //   {
+    //     "before": ["j", "j"],
+    //     "after": ["<Esc>"]
+    //   }
+    // ],
+    // "vim.normalModeKeyBindingsNonRecursive": [
+    //   {
+    //     "before": ["<leader>", "d"],
+    //     "after": ["d", "d"]
+    //   },
+    //   {
+    //     "before": ["<C-n>"],
+    //     "commands": [":nohl"]
+    //   }
+    // ],
+    // "vim.leader": "<space>",
+    // "vim.handleKeys": {
+    //   "<C-a>": false,
+    //   "<C-f>": false
+    // },
+    // "vim.statusBarColorControl": true,
+    // "vim.statusBarColors.insert": "#520000",
+    // "vim.statusBarColors.normal": "#301100",
+    // "vim.statusBarColors.visual": "#3e0070",
+    "editor.tokenColorCustomizations": {
+      "textMateRules": [
+        {
+          "name": "No italics",
+          "scope": ["comment", "markup.quote", "variable.language", "variable.parameter"],
+          "settings": {
+            "fontStyle": ""
+          }
+        }
+      ]
+    },
+    "bracket-pair-colorizer-2.colorMode": "Consecutive",
+    "bracket-pair-colorizer-2.colors": [
+      // "Gold",
+      // "#F20056"
+      // "LightSkyBlue"
+    ],
+    "editor.renderLineHighlight": "all",
+    "editor.minimap.maxColumn": 85,
+    "workbench.colorTheme": "Horizon",
+    "editor.lineNumbers": "relative",
+    "git.ignoreWindowsGit27Warning": true,
+    "workbench.editor.tabSizing": "shrink",
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python38\\python.exe",
+    "code-runner.runInTerminal": true,
+    "code-runner.ignoreSelection": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "git.autofetch": true,
+    "workbench.activityBar.visible": false,
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ],
+    "python.showStartPage": false,
+    "kite.showWelcomeNotificationOnStartup": false,
+    "workbench.sideBar.location": "right",
+    // "workbench.colorCustomizations": {
+    //   "statusBar.background": "#3e0070",
+    //   "statusBar.noFolderBackground": "#3e0070",
+    //   "statusBar.debuggingBackground": "#3e0070"
+    // },
+    // "workbench.colorCustomizations": {
+    //   "statusBar.background": "#301100",
+    //   "statusBar.noFolderBackground": "#301100",
+    //   "statusBar.gingBackground": "#301100"
+    // },
+    // "code-runner.executorMap": {
+    //   "autohotkey": "\"C:\\Program Files\\AutoHotkey\\AutoHotkey.exe\"",
+    // },
+    // //"code-runner.defaultLanguage": "autohotkey",
+    // "code-runner.languageIdToFileExtensionMap": {
+    //   ".ahk": "\"C:\\Program Files\\AutoHotkey\\AutoHotkey.exe\""
+    // }
 }
