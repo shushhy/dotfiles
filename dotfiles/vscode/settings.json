@@ -1,22 +1,9 @@
 {
-    "telemetry.enableCrashReporter": false,
-    "telemetry.enableTelemetry": false,
+    "telemetry.telemetryLevel": "off",
     "editor.minimap.enabled": false,
     "window.menuBarVisibility": "classic",
     "workbench.startupEditor": "none",
     "workbench.iconTheme": "material-icon-theme",
-    "terminal.integrated.shell.windows": "C:\\Program Files\\PowerShell\\7\\pwsh.exe",
-    "terminal.integrated.shellArgs.windows": [
-        "-NoLogo"
-    ],
-    // "terminal.integrated.profiles.windows": {
-    //     "pwsh": {
-    //         "source": "PowerShell",
-    //         "args": [
-    //             "-NoLogo"
-    //         ]
-    //     }
-    // },
     "terminal.integrated.cursorWidth": 0,
     "editor.cursorBlinking": "phase",
     "editor.cursorSurroundingLines": 1,
@@ -26,13 +13,13 @@
     "python.sortImports.path": "isort",
     "editor.hover.delay": 150,
     "editor.fontFamily": "Fira Code Retina",
-    "editor.fontWeight": "300",
-    "editor.fontSize": 14.5,
-    "editor.lineHeight": 19,
+    "editor.fontWeight": "400",
+    "editor.fontSize": 15,
+    "editor.lineHeight": 0,
     "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "Fira Code Retina",
     "terminal.integrated.fontSize": 14,
-    "terminal.integrated.fontFamily": "Fira Code",
-    "terminal.integrated.fontWeight": "300",
+    "terminal.integrated.fontWeight": "400",
     "color-highlight.markerType": "underline",
     "editor.minimap.showSlider": "always",
     "extensions.ignoreRecommendations": true,
@@ -48,7 +35,6 @@
         "--ignore=E501"
     ],
     "editor.snippetSuggestions": "top",
-    "editor.renderWhitespace": "none",
     "C_Cpp.default.cppStandard": "c++17",
     "C_Cpp.default.compilerPath": "C:\\MinGW\\bin\\g++.exe",
     "C_Cpp.updateChannel": "Default",
@@ -92,13 +78,8 @@
     },
     "vim.easymotion": true,
     "vim.incsearch": true,
-    "vim.useSystemClipboard": true,
     "vim.useCtrlKeys": true,
     "vim.hlsearch": true,
-    "vim.statusBarColorControl": true,
-    // "vim.statusBarColors.insert": "#f05c5c",
-    // "vim.statusBarColors.normal": "#ffc0cb",
-    // "vim.statusBarColors.visual": "#3bb9eb",
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
@@ -115,15 +96,8 @@
             }
         ]
     },
-    "bracket-pair-colorizer-2.colorMode": "Consecutive",
-    "bracket-pair-colorizer-2.colors": [
-        "Gold",
-        "#F20056",
-        "LightSkyBlue"
-    ],
     "editor.renderLineHighlight": "all",
     "editor.minimap.maxColumn": 85,
-    "workbench.colorTheme": "Horizon",
     "editor.lineNumbers": "relative",
     "git.ignoreWindowsGit27Warning": true,
     "workbench.editor.tabSizing": "shrink",
@@ -132,11 +106,6 @@
     "code-runner.ignoreSelection": true,
     "code-runner.saveAllFilesBeforeRun": true,
     "git.autofetch": true,
-    "workbench.colorCustomizations": {
-        "statusBar.background": "#005f5f",
-        "statusBar.noFolderBackground": "#005f5f",
-        "statusBar.debuggingBackground": "#005f5f"
-    },
     "editor.formatOnSave": true,
     "editor.detectIndentation": false,
     "docker.containers.label": "ContainerName",
@@ -147,9 +116,6 @@
         "Status"
     ],
     "workbench.editor.untitled.hint": "hidden",
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
     "python.showStartPage": false,
     "python.analysis.completeFunctionParens": true,
     "terminal.integrated.tabs.enabled": false,
@@ -157,4 +123,31 @@
     "docker.showStartPage": false,
     "redhat.telemetry.enabled": false,
     "security.workspace.trust.enabled": false,
+    "debug.focusWindowOnBreak": false,
+    "debug.console.closeOnEnd": true,
+    "editor.renderWhitespace": "none",
+    "vim.handleKeys": {
+        "<C-f>": false,
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-o>": false,
+    },
+    "debug.openDebug": "openOnSessionStart",
+    "debug.openExplorerOnEnd": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.terminal.clearBeforeReusing": true,
+    "workbench.colorTheme": "Ayu Mirage",
+    "explorer.fileNesting.enabled": true,
+    "explorer.fileNesting.patterns": {
+        "*.razor": "${capture}.razor.cs"
+    },
+    "editor.quickSuggestions": {
+        "strings": "inline",
+        "other": "on"
+    },
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
 }

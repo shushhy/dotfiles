@@ -1,16 +1,19 @@
-// Place your key bindings in this file to override the defaultsauto[]
 [
     {
         "key": "ctrl+shift+b",
         "command": "workbench.action.terminal.runActiveFile"
     },
-    { 
-        "key": "ctrl+`", 
+    {
+        "key": "ctrl+`",
         "command": "workbench.action.terminal.focus"
     },
-    { 
-        "key": "ctrl+`", 
-        "command": "workbench.action.focusActiveEditorGroup", 
+    {
+        "key": "ctrl+`",
+        "command": "workbench.action.focusActiveEditorGroup",
         "when": "terminalFocus"
+    },
+    {
+        "key": "f10",
+        "command": "workbench.action.tasks.build"
     }
 ]
